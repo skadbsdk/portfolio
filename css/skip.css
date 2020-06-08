@@ -1,0 +1,20 @@
+@charset 'utf-8';
+
+/* skip style */
+.skip_menu>li{
+  width:100%;
+  padding:10px;
+  text-align:center;
+  background:#ffffff;
+  position:absolute;
+  left:0;
+  top:-100%;
+  z-index:11;  
+}
+.skip_menu>li>a{
+  display:inline-block;
+  width:160px;
+  padding:6px 0;
+  text-align:center;
+  color:#9e1030;
+}

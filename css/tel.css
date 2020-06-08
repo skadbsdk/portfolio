@@ -1,0 +1,70 @@
+@charset 'utf-8';
+/* #tel{margin-bottom:100px;} */
+#tel .container{
+  margin-top:50px;
+}
+#tel .container>.contact_img,
+#tel .container>.contact_txt{
+  float:left;
+  width:50%;
+}
+#tel .container>.contact_img,
+#tel .container>.contact_txt{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:350px;
+}
+#tel .container>.contact_img>img{
+  width:50%;
+  border-radius:50%;
+}
+#tel .container>.contact_txt{
+  flex-flow:column nowrap;
+  justify-content:space-around;
+  align-items: flex-start;
+}
+#tel .container>.contact_txt>p{
+  font-weight:bold;
+  font-size:2em;
+  color:#333333;
+}
+#tel .container>.contact_txt>p>span{
+  font-size:0.85em;
+}
+#tel .container>.contact_txt>iframe{
+  width:100%;
+  height:200px;
+}
+
+
+
+
+/* 테블릿 스타일 */
+@media (max-width:960px){
+  #tel .container>.contact_img,
+  #tel .container>.contact_txt{
+    width:100%;
+    margin:50px 0;
+  }
+  #tel .container>.contact_txt{
+    align-items:center;
+    height:530px;
+  }
+  #tel .container>.contact_txt>iframe{
+    height:350px;
+  }
+}
+
+
+
+
+
+/* 모바일 스타일 */
+@media (max-width:767px){
+  /* #tel{margin-bottom:160px;} */
+  #tel .container>.contact_img,
+  #tel .container>.contact_txt{
+    margin:20px 0;
+  }
+}

@@ -1,0 +1,17 @@
+$(function(){
+  $('.kia').click(function(){
+    window.open('https://pam7462.github.io/kia');
+  });
+  $('.iwc').click(function(){
+    window.open('https://pam7462.github.io/iwc');
+  });
+  $('.tour').click(function(){
+    window.open('https://pam7462.github.io/tour');
+  });
+  $('.megabox').click(function(){
+    window.open('https://pam7462.github.io/megabox');
+  });
+  $('.kakao').click(function(){
+    window.open('https://pam7462.github.io/kakaocorp');
+  });
+})

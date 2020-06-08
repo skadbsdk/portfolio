@@ -1,0 +1,6 @@
+.wrap{
+  width:1000px;
+  height:1000px;
+  border:1px solid black;
+  cursor: url(../images/face.cur) auto; 
+}
